@@ -46,6 +46,8 @@ app.use(passport.session());
 
 // express validator middleware
 
+
+
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
